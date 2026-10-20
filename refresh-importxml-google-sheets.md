@@ -35,7 +35,7 @@ For a formula like
 =IMPORTXML("https://example.com/product", "//span[@class='price']")
 ```
 
-the script changes the URL to `https://example.com/product?update=1760870000000`, a new number each time. Websites ignore the extra parameter, but to Sheets it's a new URL, so it fetches fresh data.
+the script changes the URL to `https://example.com/product?update=1760870000000`, a new number each time. Most websites ignore the extra parameter, but to Sheets it's a new URL, so it fetches fresh data.
 
 For formulas where the URL isn't written in the formula (such as `=IMPORTXML(A2, ...)`), and for `IMPORTRANGE`, the script clears the formula for a moment and puts it back, which also makes Sheets fetch again.
 
