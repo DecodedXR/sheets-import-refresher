@@ -1,0 +1,4 @@
+title: Free Import Refresher for Google Sheets
+description: Refresh IMPORTXML, IMPORTHTML, IMPORTDATA and IMPORTRANGE in Google Sheets on a schedule. Free Apps Script.
+plugins:
+  - jekyll-sitemap
